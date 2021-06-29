@@ -30,6 +30,7 @@ h3 {
 }
 h1 {
 	font-size: 1.8em;
+	border-bottom: 3px solid #77a466;
 }
 h2 {
 	font-size: 1.1em;
@@ -46,7 +47,6 @@ p {
 
 /*The widths are in a percentage!*/
 header {
-	border-bottom: 3px solid #77a466;
 	margin: 0 auto;
 	display: flex;
 	align-items: center;
@@ -58,13 +58,14 @@ header h1 {
 	margin: 0;
 	padding: 38px 0;
 	width: 100%;
+	text-align: center;
 }
 header h1 span {
 	color: #77a466;
 }
 
 header nav {
-	padding: 46px 0;
+	padding: 30px 0;
 	width: 100%;
 }
 header nav ul {
@@ -75,12 +76,12 @@ header nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: .87em;
-	padding: 0 10px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	list-style: none;
+	padding-bottom: 20px;
 }
 header nav ul li a{
 	text-decoration: none;
@@ -122,17 +123,10 @@ header nav ul li a{
 	justify-content: space-between;
 }
 
-.section-one h3 {
-	padding: 10px 0;
-}
-
-.section-two {
-
-}
-
+.section-one h3 
 .section-two h3,
 .section-three h3 {
-	padding: 10px 30px;
+	padding: 0px;
 }
 
 .menu {
@@ -148,11 +142,13 @@ header nav ul li a{
 	color: #333;
 	font-size: 1em;
 	line-height: 21px;
+	padding: 0;
 }
 
 .address {
 	font-size: 1em;
 	line-height: 24px;
+	padding: 0;
 }
 
 /*The widths are in a percentage!*/
